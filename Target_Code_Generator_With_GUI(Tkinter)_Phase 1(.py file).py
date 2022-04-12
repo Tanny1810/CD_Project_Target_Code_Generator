@@ -369,7 +369,7 @@ def test():
         print("Compilation Succesful")
         fin.close()
         fout.close()
-
+        master.destroy()
         fin.close()
         fout.close()
     master = Tk()
